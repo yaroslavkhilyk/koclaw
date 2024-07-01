@@ -1,0 +1,3139 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocław - sklep zoologiczny z Wrocławia</title>
+    <link rel="shortcut icon" href="./IMG/Brand logos/fav-ico.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/30bc820b8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="overlay" data-overlay></div>
+
+    <!-- MODAL -->
+
+    <div class="modal" data-modal>
+
+        <div class="modal-close-overlay" data-modal-overlay></div>
+
+        <div class="modal-content">
+
+            <button class="modal-close-btn" data-modal-close>
+                <i class="fa-icon fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="newsletter-img">
+                <img src="./IMG/Newsletter/newsletter-hero.jpg" alt="" width="400" height="435">
+            </div>
+
+            <div class="newsletter">
+                <form action="#">
+
+                    <div class="newsletter-header">
+
+                        <h3 class="newsletter-title">Dołącz do grona Kocioloverów</h3>
+
+                        <p class="newsletter-description">
+                            Zapisz się na newsletter <b>Kicimail</b> i uzyskaj dostęp do ekskluzywnych ofert oraz
+                            atrakcyjnych cen na ulubione produkty.
+                        </p>
+
+                    </div>
+
+                    <input type="e-mail" name="email" class="email-field" placeholder="Wpisz swój email" required>
+
+                    <button type="submit" class="btn-newsletter">Zapisz się</button>
+
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- NOTIFICATION - RECENT SALES -->
+
+    <div class="notification-toast" data-toast>
+        <button class="toast-close-btn" data-toast-close>
+            <i class="fa-icon fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="toast-banner">
+            <img src="./IMG/Product images/whiskas-toast-img.jpg"
+                alt="Opakowanie karmy dla kotów Whiskas 14 kg z tuńczykiem" width="80" height="70">
+        </div>
+
+        <div class="toast-detail">
+            <p class="toast-message">
+                Ktoś właśnie kupił <br> produkt:
+            </p>
+
+            <p class="toast-title">
+                Karma dla kotów Whiskas z tuńczykiem 14 kg
+            </p>
+
+            <p class="toast-meta">
+                <time datetime="PT2M">3 minuty</time> temu
+            </p>
+        </div>
+
+    </div>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="header-top">
+
+            <div class="container">
+
+                <ul class="header-social-container">
+                    <li><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+
+                </ul>
+
+                <div class="header-alert-news">
+                    <p>
+                        <b>Tylko do końca sierpnia</b>
+                        Wszyskie karmy dla kotów Purina ONE Befensis albo ONE Adult w promocji 2+1!
+                    </p>
+                </div>
+
+                <div class="header-top-actions">
+
+                    <select name="currency">
+
+                        <option value="usd">USD &dollar;</option>
+                        <option value="eur">EUR &euro;</option>
+
+                    </select>
+
+                    <select name="language">
+
+                        <option value="en-US">English</option>
+                        <option value="de-DE">Deutsch</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="header-main">
+
+            <div class="container">
+
+                <a href="index.html" class="header-logo">
+                    <img src="./IMG/Brand logos/brand-logo.png" alt="Logo firmy Kocław" width="200" height="100">
+                </a>
+
+                <div class="header-search-container">
+
+                    <input type="search" name="search" class="search-field"
+                        placeholder="Zacznij wpisywać nazwę produktu...">
+
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                </div>
+
+                <div class="header-user-actions">
+
+                    <button class="action-btn">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+
+                    <button class="action-btn">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="count">0</span>
+                    </button>
+
+                    <button class="action-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span class="count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="desktop-navigation-menu">
+
+
+            <div class="container">
+
+                <ul class="desktop-menu-category-list">
+
+                    <li class="menu-category">
+                        <a href="index.html" class="menu-title">Główna</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Kolekcje</a>
+
+                        <div class="dropdown-panel">
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Karmy dla kotów i psów</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Karmy Pedigree</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Karmy Dolina Noteci</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Karmy Royal Canin</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#"><img src="./IMG/Product images/pets-food-banner-1.jpg" alt=""
+                                            width="250" height="119"></a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Zabawki dla kotów i psów </a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Zabawki Trixie</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Zabawki PetJoy</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Akcesoria Petlife</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#"><img src="./IMG/Product images/pets-food-banner-2.jpg" alt=""
+                                            width="250" height="119"></a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Zabawki i akcesoria</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Zabawki dla kotów</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Zabawki dla psów</a>
+                                </li>
+                                <li class="panel-list-item">
+                                    <a href="#">Akcesoria dla zwierząt domowych</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Koty</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla kociąt</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla młodych kotów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla dorosłych kotów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy specjalistyczne dla kotów</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Psy</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla pupili</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla szczeniaków</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy dla dorosłych psów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Karmy specjalistyczne dla psów</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Zabawki</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Zabawki dla kociąt</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Zabawki dla pupili</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Zabawki dla dorosłych kotów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Zabawki dla dorosłych psów</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Akcesoria</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Akcesoria spacerowe dla kotów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Akcesoria spacerowe dla psów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Akcesoria do pielęgnacji kotów</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Akcesoria do pielęgnacji psów</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Baza wiedzy</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Promocje</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <div class="mobile-bottom-navigation">
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <i class="fa-icon fa-sharp fa-solid fa-bars"></i>
+            </button>
+
+            <button class="action-btn">
+                <i class="fa-solid fa-basket-shopping"></i>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn">
+                <i class="fa-solid fa-house"></i>
+            </button>
+
+            <button class="action-btn">
+                <i class="fa-solid fa-heart"></i>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <i class="fa-solid fa-grip"></i>
+            </button>
+
+        </div>
+
+        <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+
+            <div class="menu-top">
+
+                <h2 class="menu-title">Menu</h2>
+
+                <button class="menu-close-btn" data-mobile-menu-close-btn>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+            <ul class="mobile-menu-category-list">
+
+                <li class="menu-category">
+                    <a href="index.html" class="menu-title">Główna</a>
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Kolekcje</p>
+
+                        <div>
+                            <i class="fa-solid fa-plus add-icon"></i>
+                            <i class="fa-solid fa-minus remove-icon"></i>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla kotów i psów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy Pedigree</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy Dolina Noteci</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy Royal Canin</a>
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Koty</p>
+
+                        <div>
+                            <i class="fa-solid fa-plus add-icon"></i>
+                            <i class="fa-solid fa-minus remove-icon"></i>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla kociąt</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla młodych kotów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla dorosłych kotów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy specjalistyczne dla kotów</a>
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Psy</p>
+
+                        <div>
+                            <i class="fa-solid fa-plus add-icon"></i>
+                            <i class="fa-solid fa-minus remove-icon"></i>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla pupili</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla szczeniaków</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy dla dorosłych psów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Karmy specjalistyczne dla psów</a>
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Zabawki</p>
+
+                        <div>
+                            <i class="fa-solid fa-plus add-icon"></i>
+                            <i class="fa-solid fa-minus remove-icon"></i>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Zabawki dla kociąt</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Zabawki dla pupili</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Zabawki dla dorosłych kotów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Zabawki dla dorosłych psów</a>
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Akcesoria</p>
+
+                        <div>
+                            <i class="fa-solid fa-plus add-icon"></i>
+                            <i class="fa-solid fa-minus remove-icon"></i>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Akcesoria spacerowe dla kotów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Akcesoria spacerowe dla psów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Akcesoria do pielęgnacji kotów</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Akcesoria do pielęgnacji psów</a>
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Baza wiedzy</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Promocje</a>
+                </li>
+
+
+            </ul>
+
+            <div class="menu-bottom">
+
+                <ul class="menu-category-list">
+
+                    <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Język</p>
+                            <i class="fa-icon fa-solid fa-globe fa-icon"></i>
+                        </button>
+
+                        <ul class="submenu-category-list" data-accordion>
+
+                            <li class="submnu-category">
+                                <a href="#" class="submenu-title">English</a>
+                            </li>
+
+                            <li class="submnu-category">
+                                <a href="#" class="submenu-title">Deutsch</a>
+                            </li>
+
+                            <li class="submnu-category">
+                                <a href="#" class="submenu-title">Polski</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Ceny</p>
+                            <i class="fa-solid fa-coins fa-icon"></i>
+                        </button>
+
+                        <ul class="submenu-category-list" data-accordion>
+
+                            <li class="submnu-category">
+                                <a href="#" class="submenu-title">USD &dollar;</a>
+                            </li>
+
+                            <li class="submnu-category">
+                                <a href="#" class="submenu-title">EUR &euro;</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <ul class="menu-social-container">
+
+                    <li>
+                        <a href="https://facebook.com" class="social-link" target="_blank">
+                            <i class="fa-icon fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://youtube.com" class="social-link" target="_blank">
+                            <i class="fa-icon fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://instagram.com" class="social-link" target="_blank">
+                            <i class="fa-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- BANNER SECTION -->
+
+    <main>
+
+        <div class="banner">
+
+            <div class="container">
+
+                <div class="slider-container has-scrollbar">
+
+                    <div class="slider-item">
+
+                        <img src="./IMG/Banner img/banner-1(e).jpg" alt="" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">Najnowsze produkty</p>
+
+                            <h2 class="banner-title">Oferta dla kociomaniaków</h2>
+
+                            <p class="banner-text">
+                                ceny zaczynają się już od 20 zł
+                            </p>
+
+                            <a href="#" class="banner-btn">Kup teraz</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="slider-item">
+
+                        <img src="./IMG/Banner img/banner-2(e)-1.jpg" alt="" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">Najnowsze produkty</p>
+
+                            <h2 class="banner-title">Oferta dla fanów psiaczków</h2>
+
+                            <p class="banner-text">
+                                ceny zaczynają się już od 20 zł
+                            </p>
+
+                            <a href="#" class="banner-btn">Kup teraz</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="slider-item">
+
+                        <img src="./IMG/Banner img/banner-3(e).jpg" alt="" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">Nowość</p>
+
+                            <h2 class="banner-title">Napój energetyczny dla twojego psa i kota</h2>
+
+                            <p class="banner-text">
+                                końska dawka energii w każdej puszce dla twojego ulubieńca!
+                            </p>
+
+                            <a href="#" class="banner-btn">Kup teraz</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    <!-- CATEGORY SECTION -->
+
+        <div class="category">
+
+            <div class="container">
+
+                <div class="category-item-container has-scrollbar">
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./IMG/Product icons/pet-food-ico.png" alt="" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Naturalne karmy dla Twojego psa i kota </h3>
+
+                                <p class="category-item-amount">(10)</p>
+
+
+                            </div>
+
+                            <a href="#" class="category-btn">Zobacz wszystkie</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./IMG/Product icons/pet-delicious-ico.png" alt="" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Pyszne smakołyki dla Twojego ulubieńca</h3>
+
+                                <p class="category-item-amount">(11)</p>
+
+
+                            </div>
+
+                            <a href="#" class="category-btn">Zobacz wszystkie</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./IMG/Product icons/pet-toy-ico.png" alt="" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Zabawki rozwojowe</h3>
+
+                                <p class="category-item-amount">(12)</p>
+
+
+                            </div>
+
+                            <a href="#" class="category-btn">Zobacz wszystkie</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./IMG/Product icons/pet-walk-acs-ico.png" alt="" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Akcesoria spacerowe</h3>
+
+                                <p class="category-item-amount">(13)</p>
+
+
+                            </div>
+
+                            <a href="#" class="category-btn">Zobacz wszystkie</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./IMG/Product icons/pet-care-ico.png" alt="" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Akcesoria do pielęgnacji</h3>
+
+                                <p class="category-item-amount">(15)</p>
+
+                            </div>
+
+                            <a href="#" class="category-btn">Zobacz wszystkie</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- PRODUCT SECTION -->
+
+        <div class="product-container">
+
+            <div class="container">
+
+     <!-- SIDEBAR -->
+
+          <div class="sidebar has-scrollbar" data-mobile-menu>
+
+                    <div class="sidebar-category">
+
+                        <div class="sidebar-top">
+
+                            <h2 class="sidebar-title">Kategorie</h2>
+
+                            <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+
+                        </div>
+
+                        <ul class="sidebar-menu-category-list">
+
+                            <div class="sidebar-menu-category">
+
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                                    <div class="menu-title-flex">
+
+                                        <img src="./IMG/Product icons/pet-food-ico.png" alt="" class="menu-title-img"
+                                            width="20" height="20">
+
+                                        <p class="menu-title">Naturalne karmy</p>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-plus add-icon"></i>
+                                        <i class="fa-solid fa-minus remove-icon"></i>
+                                    </div>
+
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Karmy naturalne mięsne</p>
+                                            <data value="200" class="stock" title="Na magazynie">200</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Karmy naturalne roślinne </p>
+                                            <data value="127" class="stock" title="Na magazynie">127</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Karmy naturalne specjalistyczne</p>
+                                            <data value="256" class="stock" title="Na magazynie">256</data>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="sidebar-menu-category">
+
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                                    <div class="menu-title-flex">
+
+                                        <img src="./IMG/Product icons/pet-delicious-ico.png" alt=""
+                                            class="menu-title-img" width="20" height="20">
+
+                                        <p class="menu-title">Pyszne smakołyki</p>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-plus add-icon"></i>
+                                        <i class="fa-solid fa-minus remove-icon"></i>
+                                    </div>
+
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list">
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Naturalne smakołyki mięsne</p>
+                                            <data value="764" class="stock" title="Na magazynie">764</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Naturalne smakołyki roślinne </p>
+                                            <data value="363" class="stock" title="Na magazynie">363</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Smakołyki w płynie</p>
+                                            <data value="742" class="stock" title="Na magazynie">742</data>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="sidebar-menu-category">
+
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                                    <div class="menu-title-flex">
+
+                                        <img src="./IMG/Product icons/pet-toy-ico.png" alt="" class="menu-title-img"
+                                            width="20" height="20">
+
+                                        <p class="menu-title">Zabawki</p>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-plus add-icon"></i>
+                                        <i class="fa-solid fa-minus remove-icon"></i>
+                                    </div>
+
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list">
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Zabawki miękkie ze 100% naturalnych materiałów</p>
+                                            <data value="834" class="stock" title="Na magazynie">834</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Zabawki twarde z materiałów ekologicznych </p>
+                                            <data value="124" class="stock" title="Na magazynie">124</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Zabawki rozwijające</p>
+                                            <data value="938" class="stock" title="Na magazynie">938</data>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="sidebar-menu-category">
+
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                                    <div class="menu-title-flex">
+
+                                        <img src="./IMG/Product icons/pet-walk-acs-ico.png" alt=""
+                                            class="menu-title-img" width="20" height="20">
+
+                                        <p class="menu-title">Akcesoria spacerowe</p>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-plus add-icon"></i>
+                                        <i class="fa-solid fa-minus remove-icon"></i>
+                                    </div>
+
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list">
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria na spacer uliczny</p>
+                                            <data value="765" class="stock" title="Na magazynie">765</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria na spacer w pomieszczeniu </p>
+                                            <data value="758" class="stock" title="Na magazynie">758</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria na spacer w deszcz</p>
+                                            <data value="101" class="stock" title="Na magazynie">101</data>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="sidebar-menu-category">
+
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                                    <div class="menu-title-flex">
+
+                                        <img src="./IMG/Product icons/pet-care-ico.png" alt="" class="menu-title-img"
+                                            width="20" height="20">
+
+                                        <p class="menu-title">Akcesoria do pielęgnacji</p>
+
+                                    </div>
+
+                                    <div>
+                                        <i class="fa-solid fa-plus add-icon"></i>
+                                        <i class="fa-solid fa-minus remove-icon"></i>
+                                    </div>
+
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list">
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria do pielęgnacji sierści</p>
+                                            <data value="452" class="stock" title="Na magazynie">452</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria do kąpieli </p>
+                                            <data value="681" class="stock" title="Na magazynie">681</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="#" class="sidebar-submenu-title">
+                                            <p class="product-name">Akcesoria do pięlegnacji pazurów</p>
+                                            <data value="90" class="stock" title="Na magazynie">90</data>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="product-showcase">
+
+                        <h3 class="showcase-heading">Mruczące propozycje...</h3>
+
+                        <div class="showcase-wrapper">
+
+                            <div class="showcase-container">
+
+                                <div class="showcase">
+
+                                    <a href="#" class="showcase-img-box">
+                                        <img src="./IMG/Top products/top-product-1-pet-food.jpg" alt=""
+                                            class="showcase-img" width="75" height="75">
+                                    </a>
+
+                                    <div class="showcase-content">
+
+                                        <a href="#">
+                                            <h4 class="showcase-title">Karma dla kota Dolina Noteci Premium 9 kg o smaku
+                                                suszonej wołowiny</h4>
+                                        </a>
+
+                                        <div class="showcase-rating">
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <del>179 zł</del>
+                                            <p class="price">149 zł</p>
+                                            <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase">
+
+                                    <a href="#" class="showcase-img-box">
+                                        <img src="./IMG/Top products/top-product-2-pet-toy.jpg" alt=""
+                                            class="showcase-img" width="75" height="75">
+                                    </a>
+
+                                    <div class="showcase-content">
+
+                                        <a href="#">
+                                            <h4 class="showcase-title">TRIXIE Mata drapak legowisko zabawka dla kota 2x
+                                                myszka 2x piłka składany</h4>
+                                        </a>
+
+                                        <div class="showcase-rating">
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+                                            <i class="fa-solid fa-cat"></i>
+
+
+                                        </div>
+
+                                        <div class="price-box">
+                                            <del>80,18 zł</del>
+                                            <p class="price">69,99 zł</p>
+                                            <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase">
+
+                                    <a href="#" class="showcase-img-box">
+                                        <img src="./IMG/Top products/top-product-3-pet-care.jpg" alt=""
+                                            class="showcase-img" width="75" height="75">
+                                    </a>
+
+                                    <div class="showcase-content">
+
+                                        <a href="#">
+                                            <h4 class="showcase-title">Pess Akim Szampon ochronny dla psa przeciw
+                                                pasożytom</h4>
+                                        </a>
+
+                                        <div class="showcase-rating">
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <del>17,90 zł</del>
+                                            <p class="price">14,99 zł</p>
+                                            <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase">
+
+                                    <a href="#" class="showcase-img-box">
+                                        <img src="./IMG/Top products/top-product-4-pet-tidbit.jpg" alt=""
+                                            class="showcase-img" width="75" height="75">
+                                    </a>
+
+                                    <div class="showcase-content">
+
+                                        <a href="#">
+                                            <h4 class="showcase-title">PEDIGREE Ranchos suszone przysmaki dla psa z
+                                                kurczakiem 70 g</h4>
+                                        </a>
+
+                                        <div class="showcase-rating">
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                            <i class="fa-solid fa-dog"></i>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <del>8,49 zł</del>
+                                            <p class="price">5,00 zł</p>
+                                            <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+         </div>
+
+         <div class="product-box">
+
+            <!-- PRODUCT MINIMAL -->
+
+            <div class="product-minimal">
+
+                <div class="product-showcase">
+
+                    <h2 class="title">Nowinki</h2>
+
+                    <div class="showcase-wrapper has-scrollbar">
+
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-1-dog-food.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Royal Canin Maxi Adult 15kg</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Karmy naturalne dla psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">285,90 zł</p>
+                                        <del>299 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-2-dog-toy.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Cooper & Pals Piszcząca zabawka dla psa - kurczak</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Zabawki rozwijające dla psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">9,10 zł</p>
+                                        <del>12,50 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-3-cat-care.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">KAY Szampon regeneracyjny dla kotów</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria do kąpieli dla kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">21,99 zł</p>
+                                        <del>28,75 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-4-cat-tidbit.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Dreamies Mix Przysmak z kurczakiem i kaczką dla kota op. 60g</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Smakołyki dla kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">5,49 zł</p>
+                                        <del>7 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-5-cat-toy.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Wild Mouse interaktywna zabawka</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Zabawki rozwijające dla kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">12,80 zł</p>
+                                        <del>15,30 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/New products/new-product-6-dog-accesories.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Trixie Miska ceramiczna dla psa 0,3l</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria dla psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">21,99 zł</p>
+                                        <del>28,75 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        
+
+                    </div>
+
+                </div>
+                
+                <div class="product-showcase">
+
+                    <h2 class="title">Twój kiciuś to polubi...</h2>
+
+                    <div class="showcase-wrapper has-scrollbar">
+
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-1-cat-cat-food.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">JOSERA Cat Naturelle 10kg</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Karmy naturalne dla dorosłych kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">59,28 zł</p>
+                                        <del>69,32 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-2-cat-cat-accessories.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Obroże dla Kota Skórzane z Dzwoneczkiem</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria spacerowe dla kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">59 zł</p>
+                                        <del>71,80 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-3-cat-cat-toy.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Drapak Dla Kota Kociąt NORA 31x31x37cm Szary</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Zabawki dla młodych kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">21,99 zł</p>
+                                        <del>28,75 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-4-cat-cat-accessories.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Legowisko dla kota 70cm, pluszowe różowe</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria dla wypoczynku kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">44,59 zł</p>
+                                        <del>49 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-5-cat-cat-tidbit.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Przysmak dla kota - indyk 40 g Milord</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Smakołyki dla kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">12,99 zł</p>
+                                        <del>15,38 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Cats)/top-product-6-cat-cat-care.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Szczotka Nawilżająca HydroBrush</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria do pielęgnacji kotów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">59,00 zł</p>
+                                        <del>68,11 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        
+
+                    </div>
+
+                </div>
+                
+                <div class="product-showcase">
+
+                    <h2 class="title">Zaskocz swojego psiaczka...</h2>
+
+                    <div class="showcase-wrapper has-scrollbar">
+
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-1-dog-dog-clothes.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Ubranka dla psów dresik granatowy TRIXIE</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Ubranka na spacer dla małych psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">60 zł</p>
+                                        <del>70 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-2-dog-dog-accessories.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Metalowa Klatka Kennelowa dla Psa 76x54x62cm</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria dla wypoczynku psa</a>
+
+                                    <div class="price-box">
+                                        <p class="price">170,59 zł</p>
+                                        <del>183,13 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-3-dog-dog-toy.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Pluszowa zabawka piszcząca mop dla psa</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Zabawki rozwijające dla psa</a>
+
+                                    <div class="price-box">
+                                        <p class="price">40,00 zł</p>
+                                        <del>48,48 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-4-dog-dog-medicine.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Frontpro tabletki smakowe do żucia na pchły i kleszcze dla psa</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Tabletki na kleszcze i pchły dla dorosłych psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">121,90 zł</p>
+                                        <del>127,94 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-5-dog-dog-tidbit.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Woolf Soft Beef Chunkies przysmak dla psa z wołowiną 100g</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Smakołyki dla psów</a>
+
+                                    <div class="price-box">
+                                        <p class="price">11,97 zł</p>
+                                        <del>13,10 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="showcase">
+
+                                <a href="#" class="showcase-img-box">
+                                  <img src="./IMG/Top products (Dogs)/top-product-6-dog-dog-care.jpg" alt="" width="70" class="showcase-img">  
+                                </a>
+
+                                <div class="showcase-content">
+
+                                    <a href="#">
+                                        <h4 class="showcase-title">Nożyczki do strzyżenia psów i obcinania sierści 18cm</h4>
+                                    </a>
+
+                                    <a href="#" class="showcase-category">Akcesoria do pielęgnacji sierści psa</a>
+
+                                    <div class="price-box">
+                                        <p class="price">19,49 zł</p>
+                                        <del>21,49 zł</del>
+                                        <i class="fa-solid fa-cart-shopping fast-shopping"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT FEATURED -->
+
+            <div class="product-featured">
+
+                <h2 class="title">Propozycja dnia</h2>
+
+                <div class="showcase-wrapper has-scrollbar">
+
+                    <div class="showcase-container">
+
+                       <div class="showcase">
+
+                        <div class="showcase-banner">
+                            <img src="./IMG/Banner img/banner-4-deal-of-the-day-cat.png" alt="" class="showcase-img">
+                        </div>
+
+                        <div class="showcase-content">
+
+                            <div class="showcase-rating">
+                                <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                                <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                                <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                                <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                                <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                            </div>
+
+                            <a href="#">
+                                <h3 class="showcase-title">ACANA w trosce o psa i kota</h3>
+                            </a>
+
+                            <p class="showcase-desc">
+                                Poczęstuj swojego kociusia nowinką od ACANA - karmą dla kotów z limitowanej serii Homestead Harvest. Nowa karma od ACANA została wyprodukowana z użyciem 100% naturalnych składników w połączeniu z tradycyjną recepturą, tak aby twój kociuś poczuł pełen smak dzikiej natury u siebie w domu! Tylko do końca września 2024 przy zakupie karmy dla kotów of firmy Acana z serii Homestead Harvest w skelpie Kocław.pl dostaniesz pasztet z kurczaka Premium ACANA gratis!
+                            </p>
+
+                            <div class="price-box">
+                                <div class="price">35,99 zł</div>
+                                <del>45,99 zł</del>
+                            </div>
+
+                            <button class="add-cart-btn">Podaruj chwilę przyjemności</button>
+
+                            <div class="showcase-status">
+                                <div class="wrapper">
+                                    <p>
+                                        tyle osób już skorzystało z oferty ACANA: <b>49</b>
+                                    </p>
+
+                                    <p>
+                                        zostało promocyjnych zestawów: <b>151</b>
+                                    </p>
+
+                                </div>
+
+                               <div class="showcase-status-bar"></div> 
+                            </div>
+
+                            <div class="countdown-box">
+
+                                <p class="countdown-desc">
+                                    Pospiesz się! Oferta dobiega końca za:
+                                </p>
+
+                                <div class="countdown">
+
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">108</p> 
+                                      
+                                      <p class="display-text">dni</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">18</p> 
+                                      
+                                      <p class="display-text">godzin</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">21</p> 
+                                      
+                                      <p class="display-text">min</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">10</p> 
+                                      
+                                      <p class="display-text">sek</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                       </div> 
+
+                    </div>
+                    
+                    <div class="showcase-container">
+
+                       <div class="showcase">
+
+                        <div class="showcase-banner">
+                            <img src="./IMG/Banner img/banner-image-3-dog.png" alt="" class="showcase-img">
+                        </div>
+
+                        <div class="showcase-content">
+
+                            <div class="showcase-rating">
+                                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                            </div>
+
+                            <a href="#">
+                                <h3 class="showcase-title">Dolina Noteci - wszytko co najlepsze dla Twojego psa</h3>
+                            </a>
+
+                            <p class="showcase-desc">
+                                Zaskocz swojego ulubiunego czworonoga smakiem naturalnej karmy Dolina Noteci w nowym wydaniu Superfood dla psów. Wyjątkową cechą nowej, limitowanej karmy Superfood od Doliny Noteci jest technologia suszenia i przetwarzania składników w gotową karmę, która polega na szlachetnym i natrualnym procesie suszenia karmy powietrzem tak aby każdy kawałek zachował w sobie 100% smaku i spełniw najwyższe smakowe oczekiwania Twojego ulubieńca! Wyjątkowa propozycja dla tylko dla klientów sklepu Kocław.pl - przy zakupie opakowania karmy dla psów Dolina Noteci Superfood do końca września 2024 dostaniesz w prezencie konserwę energetyczną dla psa Dolina Noteci Superfood Duck & Quail!
+                            </p>
+
+                            <div class="price-box">
+                                <div class="price">48,35 zł</div>
+                                <del>58,83 zł</del>
+                            </div>
+
+                            <button class="add-cart-btn">Podaruj chwilę przyjemności</button>
+
+                            <div class="showcase-status">
+                                <div class="wrapper">
+                                    <p>
+                                        tyle osób już skorzystało z oferty Dolina Noteci: <b>73</b>
+                                    </p>
+
+                                    <p>
+                                        zostało promocyjnych zestawów: <b>127</b>
+                                    </p>
+
+                                </div>
+
+                               <div class="showcase-status-bar-second"></div> 
+                            </div>
+
+                            <div class="countdown-box">
+
+                                <p class="countdown-desc">
+                                    Pospiesz się! Oferta dobiega końca za:
+                                </p>
+
+                                <div class="countdown">
+
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">108</p> 
+                                      
+                                      <p class="display-text">dni</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">18</p> 
+                                      
+                                      <p class="display-text">godzin</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">21</p> 
+                                      
+                                      <p class="display-text">min</p>
+
+                                    </div>
+                                    
+                                    <div class="countdown-content">
+
+                                      <p class="display-number">10</p> 
+                                      
+                                      <p class="display-text">sek</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                       </div> 
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT GRID -->
+
+            <div class="product-main">
+
+               <h2 class="title">Super okazje dla twojego czworonoga</h2> 
+
+               <div class="product-grid">
+
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-7-cat-dog-energy.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-7(2)-cat-dog-energy.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-26%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Napoje energetyczne/izotoniczne</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Napój izotoniczny ze smakiem kurczaka dla psa lub kota YUMMYRADE</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">17,00 zł</p>
+                        <del>23,00 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-8-dog-accessories.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-8(1)-dog-accessories.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-10%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Akcesoria dla wypoczynku psa</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Owalne legowisko kojec dla psa Welsti szare 58x47</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">85,50 zł</p>
+                        <del>95,00 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/cat-dog-product-9-care.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/cat-dog-product-9(1)-care.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-15%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Pielęgnacja sierści</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Pet Head Furtastic - odżywka w sprayu 2w1 dla pielęgnacji sierści</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">62,50 zł</p>
+                        <del>73,50 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-10-dog-clothes.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-10(1)-dog-clothes.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-8%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Ubrania na spacer dla dorosłego psa</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Rukka® Streamy Eco płaszcz przeciwdeszczowy, oliwkowy</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">176,05 zł</p>
+                        <del>191,35 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-11-cat-accessories.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-11(1)-cat-accessories.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-10%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Akcesoria SMART dla kota</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Kuweta Hop-In SMART z eko-tworzywa sztucznego, z wejściem od góry</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">245,08 zł</p>
+                        <del>272,38 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-12-dog-food.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-12(1)-dog-food.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-13%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Karmy suche dla małych psów</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Karma sucha dla psa Brit Care Dog Grain-Free Adult, łosoś i ziemniaki</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">46,55 zł</p>
+                        <del>53,50 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-13-cat-tidbit.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-13(1)-cat-tidbit.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-3%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Przysmaki dla kotów</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Animonda Vom Feinsten, pasta dla kota ze smakiem kurczaka lub wątrobki</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">9,50 zł</p>
+                        <del>9,80 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-14-dog-toy.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-14(1)-dog-toy.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge angle black">Wyprzedaż</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Zabawki dla dorosłych psów</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Trixie Dog Activity Flip Board, inteligentna zabawka dla psa</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">14,00 zł</p>
+                        <del>24,80 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-15-cat-care.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-15(1)-cat-care.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-10%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Akcesoria do kociej toalety</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Tigerino Premium, żwirek dla kota, 12 kg bezzapachowy/z zapachiem pudru dla dzieci</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">53,82 zł</p>
+                        <del>59,80 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-16-dog-accessories.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-16(1)-dog-accessories.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-15%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Akcesoria do karmienia psów</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Stojak z dwiema miskami stalowymi dla psa</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                        <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">70,90 zł</p>
+                        <del>83,40 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+                <div class="showcase">
+
+                  <div class="showcase-banner">
+
+                    <img src="./IMG/New products/new-product-17-cat-tidbit.jpg" alt="" class="product-img default" width="300">
+                    
+                    <img src="./IMG/New products/new-product-17(1)-cat-tidbit.jpg" alt="" class="product-img hover" width="300">
+
+                    <p class="showcase-badge">-5%</p>
+
+                    <div class="showcase-actions">
+
+                     <button class="btn-action">
+                        <i class="fa-solid fa-heart"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-eye"></i>
+                     </button>   
+                     
+                     <button class="btn-action">
+                        <i class="fa-solid fa-repeat"></i>
+                     </button>   
+                     
+                     <button class="btn-action buy-button">
+                        <i class="fa-solid fa-cart-plus"></i>
+                     </button>   
+
+                    </div>
+
+                  </div>  
+
+                  <div class="showcase-content">
+
+                    <a href="#" class="showcase-category">Przysmaki dla kotów</a>
+
+                    <a href="#">
+                        <h3 class="showcase-title">Przysmak dentystyczny Smilla Toothies</h3>
+                    </a>
+
+                    <div class="showcase-rating">
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="price-box">
+                        <p class="price">23,85 zł</p>
+                        <del>25,10 zł</del>
+                    </div>
+
+                  </div>
+
+                </div>
+
+               </div>
+
+            </div>
+
+         </div>
+
+
+
+         </div>
+
+
+        </div>
+
+        <!-- TESTIMONIALS, CTA AND SERVICES -->
+
+        <div>
+
+            <div class="container">
+
+                <div class="testimonials-box">
+
+                    <!--TESTIMONIALS  -->
+
+                    <div class="testimonial">
+
+                        <h2 class="title">Co o nas mówią nasi klienci oraz ich ulubieńcy :)</h2>
+
+                        <div class="testimonial-card">
+
+
+                            <img src="./IMG/Reviews box/review-1-men-dog.jpg" alt="" class="testimonial-banner" width="80" height="80">
+
+                            <p class="testimonial-name">Maciej i Puszek</p>
+
+                            <p class="testimonial-title">Karma dla psa sucha Dolina Noteci Supreme 12 kg ze smakiem królika</p>
+
+                            <img src="./IMG/Reviews box/quotes.svg" alt="" class="quotation-img" width="26">
+
+                            <p class="testimonial-desc">Gorąco polecam zakupy w sklepie Kocław.pl ze względu na szeroki asortyment karm specjalistycznych dla psów oraz fachowe doradztwo i pomóc przy podjęciu decyzji w wyborze karmy i finalizacji zakupu</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CTA (CALL TO ACTION)-->
+
+                    <div class="cta-container">
+
+                        <img src="./IMG/CTA/cta-banner-1.jpg" alt="" class="cta-banner">
+
+                        <a href="#" class="cta-content">
+
+                            <p class="discount">-8% zniżki</p>
+
+                            <h2 class="cta-title">Na 8 rodzajów specjalistycznych karm dla Twojego czworonoga</h2>
+
+                            <p class="cta-text">Sięgnij po wyjątkową okazję i uciesz swojego ulubieńca w 100% naturalną karmą dostosowaną do jego potrzeb i stylu życia</p>
+
+                            <button class="cta-btn">Złap okazję za łapę</button>
+
+
+                        </a>
+
+                    </div>
+
+                    <!-- SERVICE -->
+
+                    <div class="service">
+
+                        <h2 class="title">Jak działamy</h2>
+
+                        <div class="service-container">
+
+                            <a href="#" class="service-item">
+                                
+                                <div class="service-icon">
+                                    <i class="fa-solid fa-truck"></i>
+                                </div>
+    
+                                <div class="service-content">
+    
+                                    <h3 class="service-title">Darmowa oraz szybka dostawa</h3>
+                                    <p class="service-desc">Dla zamówień powyżej 300 zł. Zamówienia wysyłamy po całej Polsce (1-2 dni) oraz do Niemiec czy nawet Anglii (3-4 dni)</p>
+    
+                                </div>
+
+                            </a>
+                           
+                            <a href="#" class="service-item">
+                                
+                                <div class="service-icon">
+                                    <i class="fa-solid fa-w"></i>
+                                </div>
+    
+                                <div class="service-content">
+    
+                                    <h3 class="service-title">Firmowy sklep we Wrocławiu</h3>
+                                    <p class="service-desc">Odwiedź nasz stacjonarny sklep we Wrocławiu razem ze swoim ulubieńcem i rozkoszujcie się w naszym królewstwie smakołyków i zabawek </p>
+    
+                                </div>
+
+                            </a>
+                            
+                            <a href="#" class="service-item">
+                                
+                                <div class="service-icon">
+                                    <i class="fa-solid fa-headphones"></i>
+                                </div>
+    
+                                <div class="service-content">
+    
+                                    <h3 class="service-title">Biuro obsługi klienta</h3>
+                                    <p class="service-desc">Jest czynne od 8:00 do 16:00 5 dni w tygodniu - w razie jakichkolwiek pytań czy problemów z zamówieniem możesz się skontaktować z działem ds. obsługi klienta</p>
+    
+                                </div>
+
+                            </a>
+                            
+                            <a href="#" class="service-item">
+                                
+                                <div class="service-icon">
+                                    <i class="fa-solid fa-carrot"></i>
+                                </div>
+    
+                                <div class="service-content">
+    
+                                    <h3 class="service-title">Spersonalizowany plan diety dla Twojego czworonoga</h3>
+                                    <p class="service-desc">Posiadamy w swoim zespolie zawodowych dietetyków ds. odżywiania zwierząt, którzy chętnie Ci doradzą w opracowaniu indywidualnej diety dla Twojej pociechy</p>
+    
+                                </div>
+
+                            </a>
+                            
+                            <a href="#" class="service-item">
+                                
+                                <div class="service-icon">
+                                    <i class="fa-solid fa-rotate-left"></i>
+                                </div>
+    
+                                <div class="service-content">
+    
+                                    <h3 class="service-title">30 dni na zwrot produktów zakupionych w naszym sklepie</h3>
+                                    <p class="service-desc">Jeżeli Twój piesek lub kotek nie będą zadowoleni ze smaku bądź jakości naszych karm - śmiało możesz zwrócić zakupione u nas karmy w okresie 30 dni od daty zakupu</p>
+    
+                                </div>
+
+                            </a>
+
+                            
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- BLOG -->
+
+        <div class="blog">
+
+            <div class="container">
+
+                <div class="blog-container has-scrollbar">
+
+                  <div class="blog-card">
+
+                    <a href="#">
+                        <img src="./IMG/Blog/Blog-post-1.jpg" alt="" class="blog-banner" width="300">
+                    </a>
+
+                    <div class="blog-content">
+
+                        <a href="#" class="blog-category">Porady/karmy</a>
+
+                        <a href="#">
+                            <h3 class="blog-title">Dowiedź się jak wybrać karmę, która będzie idealnie dopasowana do gustu i stylu życia Twojego ulubieńca</h3>
+                        </a>
+
+                        <p class="blog-meta">
+                           Autor: <cite>Aneta Jabłońska</cite> / <time datetime="2024-06-19">19 czerwca, 2024</time>
+                        </p>
+
+
+                    </div>
+
+                  </div>  
+                  
+                  <div class="blog-card">
+
+                    <a href="#">
+                        <img src="./IMG/Blog/blog-post-2.jpg" alt="" class="blog-banner" width="300">
+                    </a>
+
+                    <div class="blog-content">
+
+                        <a href="#" class="blog-category">Porady/Zabawki</a>
+
+                        <a href="#">
+                            <h3 class="blog-title">Oto lista najbardizej lubianych przez psów i kotów zabawek rowijających. Koniecznie poznaj je by być na jednej fali ze swoim czworonogiem!</h3>
+                        </a>
+
+                        <p class="blog-meta">
+                           Autor: <cite>Jakub Kiwior</cite> / <time datetime="2024-06-15">15 czerwca, 2024</time>
+                        </p>
+
+
+                    </div>
+
+                  </div>  
+                  
+                  <div class="blog-card">
+
+                    <a href="#">
+                        <img src="./IMG/Blog/blog-post-3.jpg" alt="" class="blog-banner" width="300">
+                    </a>
+
+                    <div class="blog-content">
+
+                        <a href="#" class="blog-category">Porady/Zwierzęca moda</a>
+
+                        <a href="#">
+                            <h3 class="blog-title">Elegancko i wygodnie: jak wybrać perfekcyjne ubranie dla swojego ulubieńca na sezon lato-jesień? Zapoznaj się z poradami naszej ekspertki </h3>
+                        </a>
+
+                        <p class="blog-meta">
+                           Autor: <cite>Magdalena Kruk</cite> / <time datetime="2024-06-08">8 czerwca, 2024</time>
+                        </p>
+
+
+                    </div>
+
+                  </div>  
+                  
+                  <div class="blog-card">
+
+                    <a href="#">
+                        <img src="./IMG/Blog/blog-post-4.jpg" alt="" class="blog-banner" width="300">
+                    </a>
+
+                    <div class="blog-content">
+
+                        <a href="#" class="blog-category">Porady/Zwierzęce zdrowie</a>
+
+                        <a href="#">
+                            <h3 class="blog-title">Warto o tym pamiętać - sięgnij po naszą listę top-5 szczepionek, które warto zrobić swojemu czworonogu by być spokojnym o jego zdrowie</h3>
+                        </a>
+
+                        <p class="blog-meta">
+                           Autor: <cite>Piotr Dybski</cite> / <time datetime="2024-06-05">5 czerwca, 2024</time>
+                        </p>
+
+
+                    </div>
+
+                  </div>  
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-category">
+
+            <div class="container">
+
+                <h2 class="footer-category-title">Mapa kategorii</h2>
+
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Naturalne karmy:</h3>
+
+                    <a href="#" class="footer-category-link">Karmy Naturalne Mięsne</a>
+                    <a href="#" class="footer-category-link">Karmy Naturalne Roślinne</a>
+                    <a href="#" class="footer-category-link">Karmy Naturalne Specjalistyczne</a>
+
+                </div>
+                
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Pyszne smakołyki:</h3>
+
+                    <a href="#" class="footer-category-link">Naturalne Smakołyki Mięsne</a>
+                    <a href="#" class="footer-category-link">Naturalne Smakołyki Roślinne</a>
+                    <a href="#" class="footer-category-link">Smakołyki W Płynie</a>
+
+                </div>
+                
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Zabawki:</h3>
+
+                    <a href="#" class="footer-category-link">Zabawki Miękkie Ze 100% Naturalnych Materiałów</a>
+                    <a href="#" class="footer-category-link">Zabawki Twarde Z Materiałów Ekologicznych</a>
+                    <a href="#" class="footer-category-link">Zabawki Rozwijające</a>
+
+                </div>
+                
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Akcesoria spacerowe:</h3>
+
+                    <a href="#" class="footer-category-link">Akcesoria Na Spacer Uliczny</a>
+                    <a href="#" class="footer-category-link">Akcesoria Na Spacer W Pomieszczeniu</a>
+                    <a href="#" class="footer-category-link">Akcesoria Na Spacer W Deszcz</a>
+
+                </div>
+                
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Akcesoria do pielęgnacji:</h3>
+
+                    <a href="#" class="footer-category-link">Akcesoria Do Pielęgnacji Sierści</a>
+                    <a href="#" class="footer-category-link">Akcesoria Do Kąpieli</a>
+                    <a href="#" class="footer-category-link">Akcesoria Do Pięlegnacji Pazurów</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="footer-nav">
+
+            <div class="container">
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                      <h2 class="nav-title">Kolekcje</h2>  
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Karmy naturalne Acana Simple Food</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Zabawki rozwijające Shin King Pet Toy</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Ubrania dla zwięrząt CoolStyle</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Artykuły higieniczne dla zwierząt Natura Medica</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Superfood dla psów i kotów 5łapa</a>
+                    </li>
+
+                </ul>
+                
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                      <h2 class="nav-title">Asortyment</h2>  
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Zostań naszym partnerem</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Nowe produkty</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Bestsellery</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Blog</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Zwrot produktów</a>
+                    </li>
+
+                </ul>
+                
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                      <h2 class="nav-title">Kocław.pl</h2>  
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">O nas</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Wirtualny spacer po naszym sklepie</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Praca</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Polityka prywatności</a>
+                    </li>
+                    
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Regulamin</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Kontakt</h2>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <address class="content">
+                            <p>Polska, 53-873 Wrocław, ul. Karmelkowa, galeria Poznańska, p.2</p>
+                        </address>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <a href="tel:800300400" class="footer-nav-link">800 300 400</a>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <a href="mailto:bok@koclaw.pl" class="footer-nav-link">bok@koclaw.pl</a>
+                    </li>
+
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Pozostań z nami w kontakcie</h2>
+                    </li>
+
+                    <li>
+                        <ul class="social-link">
+
+                            <li class="footer-nav-item">
+                                <a href="https://facebook.com" class="footer-nav-link" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i> 
+                                </a>
+                            </li>
+                            
+                            <li class="footer-nav-item">
+                                <a href="https://instagram.com" class="footer-nav-link" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            
+                            <li class="footer-nav-item">
+                                <a href="https://youtube.com" class="footer-nav-link" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <img src="./IMG/Footer/payment-and-delivery.jpg" alt="" class="payment-img">
+
+                <p class="copyright">
+                    Wszelkie prawa zastrzeżone dla Kocław S.A &copy; 2024; 
+                </p>
+
+                <div class="autor">
+                   <p> Realizacja sklepu:</p> <a href="#">JKGroup</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
